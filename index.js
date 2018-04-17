@@ -10,5 +10,5 @@ app.get('/', function(req,res){
 
 
 app.listen(server_port, server_ip, function(){
-	console.log("Application started")
+	console.log("Application started in " + server_ip + " "  + server_port);
 });
