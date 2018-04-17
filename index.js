@@ -9,6 +9,6 @@ app.get('/', function(req,res){
 });
 
 
-server.listen(server_port, server_ip, function(){
+app.listen(server_port, server_ip, function(){
 	console.log("Application started")
 });
