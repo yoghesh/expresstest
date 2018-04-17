@@ -9,7 +9,7 @@ var server_ip = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
 // tunnel.init();
 // tunnel.client(options);
 // app.use(tunnel.server());
-app.get('/', function(req,res){
+app.get('*', function(req,res){
 	res.send('Hello world');
 });
 
